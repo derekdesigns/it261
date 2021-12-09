@@ -1,0 +1,107 @@
+/* styles for my portal page */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #DDD;
+}
+
+header {
+    overflow: hidden;
+    background: yellow;
+}
+
+.header-inner {
+    max-width: 1100px;
+    margin: 20px auto;
+}
+
+#craterlake {
+    float: left;
+    width: 50%;
+    margin: 0 20px;
+}
+
+#screenshot1 {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#screenshot2 {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+nav {
+    height: 50px;
+    float: left;
+}
+
+nav ul {
+    float: right;
+}
+
+nav li {
+    float: left;
+    list-style-type: none;
+    margin-left: 30px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+#wrapper {
+    max-width: 1100px;
+    margin: 20px auto;
+}
+
+main {
+    width: 61.7%;
+    background: lightblue;
+    float: left;
+    margin-bottom: 20px;
+}
+
+aside {
+    width: 36.17%;
+    float: right;
+}
+
+aside li {
+    list-style-type: none;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 5%;
+}
+
+h2, h3 {
+    margin-top: 5%;
+}
+
+p {
+    margin-right: 2%;
+}
+
+footer {
+    height: 50px;
+    border-top: 1px dotted #333;
+    clear: both;
+}
+
+footer ul {
+    float: left;
+}
+
+footer li {
+    float: left;
+    list-style-type: none;
+    margin-left: 20px;
+}
+
