@@ -1,0 +1,286 @@
+/* Styles for my final project */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #B6A96E;
+}
+
+header {
+    overflow: hidden;
+    background-color: #2A1A1F;
+}
+
+.header-inner {
+    max-width: 1100px;
+    margin: 20px auto;
+}
+
+#logo {
+    float: left;
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.success {
+    float: right;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #764134;
+    clear: both;
+}
+
+.welcome-logout {
+    float: right;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #764134;
+    clear: both;
+}
+
+nav {
+    /* height: 50px;
+    float: right; */
+}
+
+nav ul {
+    float: right;
+}
+
+nav li {
+    float: left;
+    list-style-type: none;
+    margin-right: 25px;
+}
+
+nav li a {
+    display: inline-block;
+    color: #B6A96E;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+nav li a:hover {
+    background-color: #B6A96E;
+    color: #2A1A1F;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.current {
+    color: #2A1A1F;
+    background-color: #B6A96E;
+    font-weight: bolder;
+}
+
+#wrapper {
+    max-width: 1100px;
+    margin: 20px auto;
+}
+
+#hero {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#hero img {
+    max-width: 100%;
+}
+
+main {
+    width: 61.7%;
+    float: left;
+    margin-bottom: 30px;
+}
+
+main ul {
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+
+blockquote {
+    color: #2A1A1F;
+    font-size: 2em;
+    font-style: italic;
+    border: 2px solid #764134;
+    margin-top: 100px;
+    padding: 5px;
+}
+
+aside li {
+    list-style-type: none;
+}
+
+aside {
+    width: 36.17%;
+    float: right;
+    margin-bottom: 30px;
+}
+
+aside img {
+    margin-bottom: 10px;
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 3em;
+    color: #764134;
+}
+
+h2 {
+    font-size: 2.25em;
+    color: #926242;
+}
+
+h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.indexmain {
+    margin-bottom: 2.5px;
+}
+
+.indexaside {
+    margin-top: 200px;
+    margin-bottom: 25px;
+}
+
+.aboutpar {
+    margin-top: 50px;
+}
+
+.list {
+    margin-top: 160px;
+}
+
+.list2 {
+    margin-top: 370px;
+}
+
+.description {
+    margin-top: 50px;
+    font-size: 1.1em;
+}
+
+.reasons {
+    margin-bottom: 10px;
+    background-color: #AD8350;
+}
+
+.newsletter {
+    margin-top: 100px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+footer {
+    height: 50px;
+    border-top: 1px dotted #333;
+    clear: both;
+}
+
+footer ul {
+    float: right;
+}
+
+footer li {
+    float: left;
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+/* form styles */
+
+form {
+    width: 400px;
+    margin: 20px auto;
+}
+
+fieldset {
+   padding: 10px; 
+   background-color: #AD8350;
+   border: 2px solid #2A1A1F;
+}
+
+legend {
+    font-size: 1.5em;
+    font-style: italic;
+    color: #2A1A1F;
+}
+
+label {
+    display: block;
+    color: #2A1A1F;
+}
+
+input {
+    margin-right: 2px;
+}
+    
+
+form  ul {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+
+form li {
+    color: #2A1A1F;
+}
+
+.error {
+    display: block;
+    color: #C8BE92;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    font-style: italic;
+}
+
+.block {
+    display: block;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 25px;
+}
+
+#comments {
+    width: 90%;
+    height: 100px;
+}
+
+#submit {
+    margin-bottom: 5px;
+}
+
+/* project styles */
+
+.blurb {
+    font-style: italic;
+    font-size: .9em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin: 0 auto 20px auto;
+    text-align: center;
+}
+
+hr {
+    display: block;
+    margin-bottom: 30px;
+}
+
